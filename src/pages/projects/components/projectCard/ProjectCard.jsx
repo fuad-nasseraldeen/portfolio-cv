@@ -12,9 +12,9 @@ function ProjectCard({ project }) {
         <p>{project.description}</p>
       </div>
       <div className={styles.cardFooter}>
-          <a href={project.demourl} target='_blank' rel='noreferrer'>
-            {!_.isEmpty(project.demourl) && 'View Demo'}
-          </a>
+        <a href={project.demourl} target='_blank' rel='noreferrer'>
+          {!_.isEmpty(project.demourl) && 'View Demo'}
+        </a>
         <a href={project.giturl} target='_blank' rel='noreferrer'>
           <FaGithub />
         </a>

@@ -207,6 +207,76 @@ const resumeData = {
         },
       },
       {
+        name: 'redux-hooks-portfolio',
+        description:
+          'This is my portfolio website showcasing my skills, projects, and experience. It includes detailed information about my professional journey, personal projects, and other relevant details. This version of the portfolio is built using React with hooks for managing state and side effects.',
+        frameworks: [
+          {
+            name: 'React',
+            color: '#5465ff',
+            _id: {
+              $oid: '65510abdf8eaaaaacfbcabd2',
+            },
+          },
+          {
+            name: 'Node.js',
+            color: '#0062B1',
+            _id: {
+              $oid: '65510abdf8eaaaaacfbcabd3',
+            },
+          },
+          {
+            name: 'Typescript',
+            color: '#d6a514',
+            _id: {
+              $oid: '65510abdf8eaaaaacfbcabd4',
+            },
+          },
+        ],
+        imgurl: '/projects/redux-hooks-portfolio.png',
+        giturl: 'https://github.com/fuad-nasseraldeen/redux-hooks-portfolio?tab=readme-ov-file',
+        demourl: 'https://redux-hooks-portfolio-git-main-fuad-nasseraldeen.vercel.app/',
+        readme: null,
+        _id: {
+          $oid: '65510abdf8eaaaaacfbcabd2ee21',
+        },
+      },
+      {
+        name: 'MERN-STACK-DEVELOPER',
+        description:
+          'This is my portfolio website showcasing my skills, projects, and experience. It includes detailed information about my professional journey, personal projects, and other relevant details.',
+        frameworks: [
+          {
+            name: 'React',
+            color: '#5465ff',
+            _id: {
+              $oid: '65510abdf8eaaaaacfbcabd2',
+            },
+          },
+          {
+            name: 'Node.js',
+            color: '#0062B1',
+            _id: {
+              $oid: '65510abdf8eaaaaacfbcabd3',
+            },
+          },
+          {
+            name: 'Typescript',
+            color: '#d6a514',
+            _id: {
+              $oid: '65510abdf8eaaaaacfbcabd4',
+            },
+          },
+        ],
+        imgurl: '/projects/MERN-STACK-DEVELOPER.png',
+        giturl: 'https://github.com/fuad-nasseraldeen/fuad-nasser-aldeen-portfolio',
+        demourl: 'https://fuad-nasseraldeen-portfolio-6fjh5tm88-fuad-nasseraldeen.vercel.app/',
+        readme: null,
+        _id: {
+          $oid: '65510abdf8eaaaaacfbcabd2ee21',
+        },
+      },
+      {
         name: 'Coupon System Project',
         description:
           'The Coupon System Project acts as a Micro Service that shows an implementation which allows companies to CRUD coupons for their customers. then the Customers can purchase and use those Coupons, and get a discount in that company "business".',

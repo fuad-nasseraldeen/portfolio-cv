@@ -1,0 +1,10 @@
+.li {
+   margin-bottom: 2rem; /* Adjust the value as needed */
+   margin-left: 3rem;
+}
+.ul {
+    padding: 8px;
+    font-size: 1.6rem;
+    letter-spacing: 1.1px;
+    font-family: "Architects Daughter", "Bree Serif", sans-serif;
+}

@@ -1,0 +1,49 @@
+.recommendations {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    /* width: 100%; */
+}
+.recommendations-message {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: -2rem;
+    margin-top: 2rem;
+    z-index: 1;
+}
+
+.recommendations-message a {
+    margin: 0 2px;
+    /* Add some margin between elements */
+
+    font-size: 1.3rem;
+    letter-spacing: 1.1px;
+    font-family: 'Architects Daughter', 'Bree Serif', sans-serif;
+    color: var(--main-light-color);
+}
+
+.source-message,
+.linkedin-source {
+  text-transform: capitalize;
+}
+
+.linkedin-icon {
+  &:hover {
+    outline: none;
+    animation: pulsate 1s infinite;
+  }
+
+  &:focus {
+    outline: none;
+    animation: pulsate 1s infinite;
+  }
+}
+
+.linkedin-source {
+  text-decoration: underline;
+
+  &:hover {
+    color: var(--secondary-light-color);
+  }
+}

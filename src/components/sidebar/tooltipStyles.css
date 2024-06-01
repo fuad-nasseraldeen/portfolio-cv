@@ -1,0 +1,22 @@
+/* tooltipStyles.css */
+.custom-tooltip {
+  letter-spacing: 1.1px;
+  font-family: 'Architects Daughter', 'Bree Serif', sans-serif;
+  font-size: 1.5rem;
+  color: #fff; /* Change text color */
+  background-color: var(--main-light-color); /* Change background color */
+  border-radius: 10px;
+  padding: 8px;
+  animation: fadeIn 0.3s ease-in-out; /* Add fade-in animation */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Optional: Add more custom styles as needed */

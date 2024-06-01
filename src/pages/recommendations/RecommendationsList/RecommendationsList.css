@@ -1,0 +1,118 @@
+.recommendations__container {
+  text-align: center;
+  margin: 0rem 3rem;
+  padding-top: 4rem;
+  border-radius: 3rem;
+  position: relative;
+  z-index: 1;
+  text-align: -webkit-center !important;
+  width: calc(100% - 5rem);
+
+
+
+  img {
+    width: 25rem;
+    height: 15rem;
+    border-radius: 30% 30% 10% 10%;
+  }
+@media (max-width: 500px) {
+  img {
+    height: 10rem;
+  }
+}
+  .pic {
+    display: inline-block;
+  }
+}
+
+.recommendations__container-body {
+  height: 36dvh;
+  overflow: overlay;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  font-size: 1.6rem;
+  letter-spacing: 1.1px;
+  font-family: 'Architects Daughter', 'Bree Serif', sans-serif;
+  color: var(--main-light-color);
+}
+
+.fa-quote {
+  color: var(--main-light-color);
+  font-size: 5rem;
+  position: absolute;
+  top: 70px;
+}
+
+.fa-quote-left {
+  right: 15rem;
+}
+
+.fa-quote-right {
+  left: 15rem;
+}
+
+.recommendations__container-footer {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  text-transform: capitalize;
+  font-size: 1.6rem;
+  letter-spacing: 1.1px;
+  font-family: 'Architects Daughter', 'Bree Serif', sans-serif;
+  color: var(--secondary-light-color-border);
+  font-weight: 800;
+}
+
+.linkedin-profile {
+  width: min-content;
+  left: 50%;
+  /* position: absolute; */
+  background: transparent;
+}
+
+.recommendations__container-footer__sub {
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 1.6rem;
+  letter-spacing: 1.1px;
+  font-family: 'Architects Daughter', 'Bree Serif', sans-serif;
+  color: var(--main-light-color);
+  white-space: nowrap;
+}
+
+.pdf img {
+  height: 5rem !important;
+}
+
+
+@media (max-width: 1000px) {
+  .fa-quote {
+    font-size: 3rem;
+  }
+
+  .fa-quote-left {
+    right: 0rem;
+  }
+
+  .fa-quote-right {
+    left: 0rem;
+  }
+}
+@media (max-width: 1000px) {
+  .recommendations__container-body {
+    height: 45dvh;
+  }
+}
+@media (max-width: 500px) {
+  .recommendations__container-body {
+    height: 56dvh;
+  }
+}
+@media (max-width: 350px) {
+  .recommendations__container-body {
+    height: 50dvh;
+  }
+}

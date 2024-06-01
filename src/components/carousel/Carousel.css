@@ -1,0 +1,119 @@
+.owl-carousel .owl-stage,
+.owl-carousel.owl-drag .owl-item {
+  -ms-touch-action: auto;
+  touch-action: auto;
+}
+
+.owl-carousel.owl-drag .owl-item {
+  /* background-color: white; */
+  border-radius: 10rem;
+  border-style: none;
+  /* width: 50rem !important; */
+  opacity: 0.4;
+  height: 40rem !important;
+  display: flex;
+  align-self: center;
+}
+
+.owl-carousel.owl-drag .owl-item.active {
+  border-style: double;
+  background-color: aliceblue;
+  opacity: 1;
+  width: 84rem !important;
+  height: 70rem !important;
+}
+
+.owl-carousel .owl-stage {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.fa {
+  font-size: 3rem;
+}
+
+.owl-carousel .owl-next {
+  position: absolute;
+  top: 45%;
+  right: 8%;
+}
+
+.owl-carousel .owl-prev {
+  position: absolute;
+  top: 45%;
+  left: 3%;
+}
+
+.owl-carousel button.owl-dot {
+  background: var(--secondary-light-color);
+}
+
+.owl-dots {
+  text-align: center;
+  padding-bottom: 5rem;
+  padding-top: 2rem;
+  /* background: var(--color-gray-5); */
+}
+
+.owl-dots button.owl-dot {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  display: inline-block;
+  border: none;
+  margin: 0 3px;
+  background: var(--color-gray-2) !important;
+}
+
+.owl-dots button.owl-dot.active {
+  border-radius: 0%;
+  width: 10rem;
+  background: var(--secondary-light-color) !important;
+}
+
+.owl-dots button.owl-dot:focus {
+  outline: none;
+}
+
+@media (max-width: 1000px) {
+  .owl-carousel.owl-drag .owl-item.active {
+    width: calc(100% - 95%) !important;
+  }
+}
+
+@media (max-width: 550px) {
+  .owl-carousel.owl-drag .owl-item.active {
+    height: 75rem !important;
+  }
+
+  .owl-carousel .owl-next {
+    right: -8%;
+  }
+
+  .owl-carousel .owl-prev {
+    left: 0%;
+  }
+}
+@media (max-width:450px) {
+    .owl-carousel .owl-next {
+    right: 0%;
+  }
+}
+@media (max-width: 405px) {
+  .owl-carousel .owl-next {
+    right: 3%;
+  }
+
+  .owl-carousel .owl-prev {
+    left: 3%;
+  }
+}
+@media (max-width: 360px) {
+  .owl-carousel .owl-next {
+    right: -12%;
+  }
+  .owl-carousel.owl-drag .owl-item.active {
+    width: calc(100% - 94.5%) !important;
+}
+}
